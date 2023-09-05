@@ -115,7 +115,7 @@ function DiscordLib:Window(text)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = Discord
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(75, 0, 130)
 	MainFrame.BorderSizePixel = 0
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -3245,3 +3245,4 @@ function DiscordLib:Window(text)
 	return ServerHold
 end
 return DiscordLib
+
