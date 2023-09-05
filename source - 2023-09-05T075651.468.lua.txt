@@ -134,7 +134,7 @@ Main.Position = UDim2.new(0.590086579, 0, 0.563882053, 0)
 Main.Size = UDim2.new(0, 450, 0, 0)
 Main.ZIndex = 2
 Main.Image = "rbxassetid://3570695787"
-Main.ImageColor3 = Color3.fromRGB(35, 35, 35)
+Main.ImageColor3 = Library.Theme.BackgroundColor
 Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
 Main.SliceScale = 0.050
@@ -354,7 +354,7 @@ function Library:CreateTab(name)
         NameSection.Size = UDim2.new(0, 197, 0, 181)
         NameSection.ZIndex = 4
         NameSection.Image = "rbxassetid://3570695787"
-       NameSection.ImageColor3 = Color3.fromRGB(35, 35, 35)
+        .NameSectionImageColor3 = Color3.fromRGB(35, 35, 35)  
         NameSection.ScaleType = Enum.ScaleType.Slice
         NameSection.SliceCenter = Rect.new(100, 100, 100, 100)
         NameSection.SliceScale = 0.050
@@ -374,7 +374,7 @@ function Library:CreateTab(name)
         
         SectionTitle.Name = "SectionTitle"
         SectionTitle.Parent = NameSection
-        SectionTitle.BackgroundColor3 = Color3.fromRGB(35, 35, 35)        
+        SectionTitle.BackgroundColor3 = Library.Theme.BackgroundColor        
         SectionTitle.BorderSizePixel = 0
         SectionTitle.Text = name
         SectionTitle.Position = UDim2.new(0.5, (-SectionTitle.TextBounds.X - 5) / 2, 0, -12)
@@ -397,7 +397,6 @@ function Library:CreateTab(name)
         SectionContent.ScrollBarImageColor3 = Color3.fromRGB(85, 85, 85)
         SectionContent.ScrollBarThickness = 4
         SectionContent.TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
-
         SectionContentLayout.Name = "SectionContentLayout"
         SectionContentLayout.Parent = SectionContent
         SectionContentLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -566,7 +565,7 @@ function Library:CreateTab(name)
 
             TickCover.Name = "TickCover"
             TickCover.Parent = Toggle
-           TickCover.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+            TickCover.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
             TickCover.BorderSizePixel = 0
             TickCover.Position = UDim2.new(0.5, -7, 0.5, -7)
             TickCover.Size = UDim2.new(0, 14, 0, 14)
