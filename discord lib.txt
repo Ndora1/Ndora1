@@ -115,7 +115,7 @@ function DiscordLib:Window(text)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = Discord
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
 	MainFrame.BorderSizePixel = 0
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -123,7 +123,7 @@ function DiscordLib:Window(text)
 
 	TopFrame.Name = "TopFrame"
 	TopFrame.Parent = MainFrame
-	TopFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TopFrame.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
 	TopFrame.BackgroundTransparency = 1.000
 	TopFrame.BorderSizePixel = 0
 	TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
@@ -131,7 +131,7 @@ function DiscordLib:Window(text)
 	
 	TopFrameHolder.Name = "TopFrameHolder"
 	TopFrameHolder.Parent = TopFrame
-	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
 	TopFrameHolder.BackgroundTransparency = 1.000
 	TopFrameHolder.BorderSizePixel = 0
 	TopFrameHolder.Position = UDim2.new(-0.000658480625, 0, 0, 0)
@@ -151,20 +151,20 @@ function DiscordLib:Window(text)
 
 	CloseBtn.Name = "CloseBtn"
 	CloseBtn.Parent = TopFrame
-	CloseBtn.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
+	CloseBtn.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
 	CloseBtn.BackgroundTransparency = 0
 	CloseBtn.Position = UDim2.new(0.959063113, 0, -0.0169996787, 0)
 	CloseBtn.Size = UDim2.new(0, 28, 0, 22)
 	CloseBtn.Font = Enum.Font.Gotham
 	CloseBtn.Text = ""
-	CloseBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+	CloseBtn.TextColor3 = Color3.fromRGB(128, 0, 128)
 	CloseBtn.TextSize = 14.000
 	CloseBtn.BorderSizePixel = 0
 	CloseBtn.AutoButtonColor = false
 
 	CloseIcon.Name = "CloseIcon"
 	CloseIcon.Parent = CloseBtn
-	CloseIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	CloseIcon.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
 	CloseIcon.BackgroundTransparency = 1.000
 	CloseIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
 	CloseIcon.Size = UDim2.new(0, 17, 0, 17)
@@ -1529,7 +1529,7 @@ function DiscordLib:Window(text)
 
 		NotificationHolderMain.Name = "NotificationHolderMain"
 		NotificationHolderMain.Parent = MainFrame
-		NotificationHolderMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		NotificationHolderMain.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
 		NotificationHolderMain.BackgroundTransparency = 1
 		NotificationHolderMain.BorderSizePixel = 0
 		NotificationHolderMain.Position = UDim2.new(0, 0, 0.0560000017, 0)
@@ -2601,7 +2601,7 @@ function DiscordLib:Window(text)
 
 				DropdownFrameMain.Name = "DropdownFrameMain"
 				DropdownFrameMain.Parent = DropdownTitle
-				DropdownFrameMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				DropdownFrameMain.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
 				DropdownFrameMain.ClipsDescendants = true
 				DropdownFrameMain.Position = UDim2.new(0.00999999978, 0, 2.2568965, 0)
 				DropdownFrameMain.Selectable = true
