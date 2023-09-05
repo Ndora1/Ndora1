@@ -1197,9 +1197,9 @@ function Library:CreateTab(name)
             NameDropdown.Parent = SectionContent
             NameDropdown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             NameDropdown.BackgroundTransparency = 1.000
-            NameDropdown.Position = UDim2.new(0, 0, 0.773480654, 0)
-            NameDropdown.Size = UDim2.new(0, 197, 0, 35)
-            NameDropdown.ZIndex = 5
+            NameDropdown.Position = UDim2.new(0, 14, 0, 16)
+            NameDropdown.Size = UDim2.new(0, 419, 0, 25)
+            NameDropdown.ZIndex = 2
 
             TitleToggle.Archivable = false
             TitleToggle.Name = "TitleToggle"
