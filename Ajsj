@@ -1,3 +1,4 @@
+
 -- don't judge :rage:
 local function DestroyYep()
     for x = 1,69 do 
@@ -25,8 +26,8 @@ function Library:CreateWindow(windowname,windowinfo)
     local Title = Instance.new("TextLabel")
     local Yep = Instance.new("TextButton")
     local Cre = Instance.new("ImageLabel")
-    local YepTitle = Instance.new("TextLabel")
-    local YepCorner = Instance.new("UICorner")
+    
+    
 
     fu8rj82n.Name = "fu8rj82n"
     fu8rj82n.Parent = game.CoreGui
@@ -45,19 +46,19 @@ function Library:CreateWindow(windowname,windowinfo)
     
     
  local CloseButton = Instance.new("TextButton")
-CloseButton.Name = "CloseButton"
-CloseButton.Parent = Frame -- حيث Frame هو الإطار الرئيسي للنافذة
-CloseButton.BackgroundColor3 = Color3.new(1, 1, 1) -- اللون الأبيض
-CloseButton.Position = UDim2.new(0, 0, 0, 0) -- الزاوية اليسرى العلوية
-CloseButton.Size = UDim2.new(0, 20, 0, 20) -- حجم الزر
-CloseButton.Font = Enum.Font.GothamSemibold
-CloseButton.Text = "X"
+CloseButton.Size = UDim2.new(0, 30, 0, 30)
+CloseButton.Position = UDim2.new(0, 10, 0, 10)
+CloseButton.BackgroundColor3 = Color3.new(1, 1, 1) -- لون أبيض
 CloseButton.TextColor3 = Color3.new(0, 0, 0) -- لون النص أسود
-CloseButton.TextSize = 14
+CloseButton.Text = "X" -- النص "X" كوسمة للزر
+CloseButton.Font = Enum.Font.SourceSansBold
+CloseButton.TextSize = 20
+CloseButton.Parent = Frame -- الإطار الذي تريد إضافة الزر إليه
 
 CloseButton.MouseButton1Click:Connect(function()
-Frame.Visible = false 
+    Frame:Destroy()
 end)
+
 
     
     DashBoard.Name = "DashBoard"
@@ -114,70 +115,10 @@ end)
     Title.TextSize = 14.000
     Title.TextXAlignment = Enum.TextXAlignment.Left
 
-    Yep.Name = "Yep"
-    Yep.Parent = Frame
-    Yep.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-    Yep.BackgroundTransparency = 1.000
-    Yep.BorderColor3 = Color3.fromRGB(20, 20, 20)
-    Yep.BorderSizePixel = 0
-    Yep.Position = UDim2.new(0.88499999, 0, 0.0495263338, 0)
-    Yep.Size = UDim2.new(0, 38, 0, 22)
-    Yep.AutoButtonColor = false
-    Yep.Font = Enum.Font.SourceSans
-    Yep.Text = ""
-    Yep.TextColor3 = Color3.fromRGB(0, 0, 0)
-    Yep.TextSize = 14.000
+        
     
-    Cre.Name = "Cre"
-    Cre.Parent = Yep
-    Cre.BackgroundTransparency = 1.000
-    Cre.Size = UDim2.new(0, 38, 0, 21)
-    Cre.Image = "rbxassetid://4384401360"
-    Cre.ScaleType = Enum.ScaleType.Fit
     
-    YepTitle.Name = "YepTitle"
-    YepTitle.Parent = Yep
-    YepTitle.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-    YepTitle.BackgroundTransparency = 1.000
-    YepTitle.BorderColor3 = Color3.fromRGB(20, 20, 20)
-    YepTitle.BorderSizePixel = 0
-    YepTitle.Position = UDim2.new(1.57894742, 0, -0.318181813, 0)
-    YepTitle.Size = UDim2.new(0, 128, 0, 33)
-    YepTitle.Font = Enum.Font.GothamSemibold
-    YepTitle.Text = windowinfo or "UI Made by Bytes#0001"
-    YepTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-    YepTitle.TextSize = 9.000
-    YepTitle.TextTransparency = 1.000
-    print("derek cool")
-    YepCorner.Name = "YepCorner"
-    YepCorner.Parent = YepTitle
-
-    Cre.MouseEnter:Connect(function()
-		YepTitle.BackgroundTransparency = 0.8
-		YepTitle.TextTransparency = 0.5
-		wait(0.05)
-		YepTitle.BackgroundTransparency = 0.5
-		YepTitle.TextTransparency = 0.3
-		-- cre
-		Cre.ImageColor3 = Color3.fromRGB(137, 246, 255)
-		wait(0.05)
-		YepTitle.BackgroundTransparency = 0
-		YepTitle.TextTransparency = 0
-	end)
-	
-	Cre.MouseLeave:Connect(function()
-		YepTitle.BackgroundTransparency = 0.5
-		YepTitle.TextTransparency = 0.3
-		wait(0.05)
-		YepTitle.BackgroundTransparency = 0.8
-		YepTitle.TextTransparency = 0.5
-		-- cre
-		Cre.ImageColor3 = Color3.fromRGB(255,255,255)
-		wait(0.05)
-		YepTitle.BackgroundTransparency = 1
-		YepTitle.TextTransparency = 1
-	end)
-    
+        
 
     local UserInputService = game:GetService("UserInputService")
 	
