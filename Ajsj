@@ -47,7 +47,7 @@ function Library:CreateWindow(windowname,windowinfo)
  local CloseButton = Instance.new("TextButton")
 CloseButton.Size = UDim2.new(0, 30, 0, 30)
 CloseButton.Position = UDim2.new(1, -40, 0, 10) -- الزاوية اليمنى العليا
-CloseButton.BackgroundColor3 = Color3.new(20, 20, 20) -- 
+CloseButton.BackgroundColor3 = Color3.new(0,0, 0) -- 
 CloseButton.TextColor3 = Color3.new(1,1,1) -- لون النص أسود
 CloseButton.Text = "X" -- النص "X" كوسمة للزر
 CloseButton.Font = Enum.Font.SourceSansBold
