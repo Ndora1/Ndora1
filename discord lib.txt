@@ -115,7 +115,7 @@ function DiscordLib:Window(text)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = Discord
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(75, 0, 130)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	MainFrame.BorderSizePixel = 0
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -123,7 +123,7 @@ function DiscordLib:Window(text)
 
 	TopFrame.Name = "TopFrame"
 	TopFrame.Parent = MainFrame
-	TopFrame.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
+	TopFrame.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	TopFrame.BackgroundTransparency = 1.000
 	TopFrame.BorderSizePixel = 0
 	TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
@@ -131,7 +131,7 @@ function DiscordLib:Window(text)
 	
 	TopFrameHolder.Name = "TopFrameHolder"
 	TopFrameHolder.Parent = TopFrame
-	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	TopFrameHolder.BackgroundTransparency = 1.000
 	TopFrameHolder.BorderSizePixel = 0
 	TopFrameHolder.Position = UDim2.new(-0.000658480625, 0, 0, 0)
@@ -151,7 +151,7 @@ function DiscordLib:Window(text)
 
 	CloseBtn.Name = "CloseBtn"
 	CloseBtn.Parent = TopFrame
-	CloseBtn.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+	CloseBtn.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	CloseBtn.BackgroundTransparency = 0
 	CloseBtn.Position = UDim2.new(0.959063113, 0, -0.0169996787, 0)
 	CloseBtn.Size = UDim2.new(0, 28, 0, 22)
@@ -164,7 +164,7 @@ function DiscordLib:Window(text)
 
 	CloseIcon.Name = "CloseIcon"
 	CloseIcon.Parent = CloseBtn
-	CloseIcon.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+	CloseIcon.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	CloseIcon.BackgroundTransparency = 1.000
 	CloseIcon.Position = UDim2.new(0.189182192, 0, 0.128935531, 0)
 	CloseIcon.Size = UDim2.new(0, 17, 0, 17)
@@ -256,7 +256,7 @@ function DiscordLib:Window(text)
 	UserTag.TextXAlignment = Enum.TextXAlignment.Left
 	
 	UserName.Text = user
-	UserTag.Text = "#" .. tag
+	UserTag.Text = ""
 
 	ServersHoldFrame.Name = "ServersHoldFrame"
 	ServersHoldFrame.Parent = MainFrame
@@ -1364,7 +1364,7 @@ function DiscordLib:Window(text)
 			UserPanelUser.Text = user
 			UserPanelUser.Size = UDim2.new(0, UserPanelUser.TextBounds.X + 2, 0, 19)
 			UserName.Text = user
-			UserTag.Text = "#" .. tag
+			UserTag.Text = ""
 			SaveInfo()
 
 			UserChange:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .2, true)
@@ -2131,7 +2131,7 @@ function DiscordLib:Window(text)
 
 				Button.Name = "Button"
 				Button.Parent = ChannelHolder
-				Button.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+				Button.BackgroundColor3 = Color3.fromRGB(0,0,0)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
@@ -2165,7 +2165,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+						{BackgroundColor3 = Color3.fromRGB(0,0,0)}
 					):Play()
 				end)
 				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
@@ -3245,4 +3245,3 @@ function DiscordLib:Window(text)
 	return ServerHold
 end
 return DiscordLib
-
