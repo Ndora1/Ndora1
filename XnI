@@ -86,7 +86,7 @@ HubLabel.Parent = Frame
     TabContainer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     TabContainer.BackgroundTransparency = 1.000
     TabContainer.BorderSizePixel = 0
-    TabContainer.Position = UDim2.new(0, 10, 0, 170)
+    TabContainer.Position = UDim2.new(0.0280373823, 0, 0.0391304344, 0)
     TabContainer.Size = UDim2.new(0, 100, 0, 50)
     
     TabContainer_2.Name = "TabContainer"
