@@ -70,26 +70,23 @@ HubLabel.Parent = Frame
 
 local TabContainer = script.Parent -- افترض أن "TabContainer" هو الفرع الذي تريد تطبيق الأنميشن عليه
 
--- تعريف الأنميشن
-local TweenService = game:GetService("TweenService")
-local Info = TweenInfo.new(
-    1, -- مدة الأنميشن بالثواني
-    Enum.EasingStyle.Quad, -- نمط التسارع
-    Enum.EasingDirection.Out, -- اتجاه التسارع
-    0, -- عدد مرات التكرار (0 لتشغيل الأنميشن مرة واحدة)
-    false, -- هل تشغيل الأنميشن بشكل متكرر
-    0 -- تأخير قبل بدء الأنميشن بالثواني
-)
+-- تعيين الحجم الأولي والشفافية الأولية
+TabContainer.Size = UDim2.new(0, 100, 0, 50)
+TabContainer.BackgroundTransparency = 1
 
-local initialSize = UDim2.new(0, 100, 0, 50)
-local finalSize = UDim2.new(0, 110, 0, 60)
+-- تأخير قبل بدء الظهور
+wait(1)
 
--- إنشاء الأنميشن
-local tween = TweenService:Create(TabContainer, Info, {Size = finalSize})
+-- الظهور التدريجي
+for i = 1, 10 do
+    TabContainer.BackgroundTransparency = 0.1 * i
+    wait(0.1) -- تعديل هذه القيمة حسب السرعة المطلوبة
+end
 
--- تشغيل الأنميشن عند تشغيل السكربت
-tween:Play()
-    
+-- تعيين الشفافية النهائية
+TabContainer.BackgroundTransparency = 0
+
+
     DashBoard.Name = "DashBoard"
     DashBoard.Parent = Frame
     DashBoard.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
