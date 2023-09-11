@@ -68,23 +68,6 @@ HubLabel.Font = Enum.Font.SourceSansBold
 HubLabel.TextSize = 18
 HubLabel.Parent = Frame
 
-local TabContainer = script.Parent -- افترض أن "TabContainer" هو الفرع الذي تريد تطبيق الأنميشن عليه
-
--- تعيين الحجم الأولي والشفافية الأولية
-TabContainer.Size = UDim2.new(0, 100, 0, 50)
-TabContainer.BackgroundTransparency = 1
-
--- تأخير قبل بدء الظهور
-wait(1)
-
--- الظهور التدريجي
-for i = 1, 10 do
-    TabContainer.BackgroundTransparency = 0.1 * i
-    wait(0.1) -- تعديل هذه القيمة حسب السرعة المطلوبة
-end
-
--- تعيين الشفافية النهائية
-TabContainer.BackgroundTransparency = 0
 
 
     DashBoard.Name = "DashBoard"
