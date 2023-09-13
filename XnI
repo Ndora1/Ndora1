@@ -34,8 +34,8 @@ function Library:CreateWindow(windowname,windowinfo)
     fu8rj82n.ResetOnSpawn = false
     
     Frame.Parent = fu8rj82n
-    Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-    Frame.BorderColor3 = Color3.fromRGB(15, 15, 15)
+    Frame.BackgroundColor3 = Color3.fromRGB(0.1, 0.1, 0.1)
+    Frame.BorderColor3 = Color3.fromRGB(0.1, 0.1, 0.1)
     Frame.BorderSizePixel = 0
     Frame.Position = UDim2.new(0.289808273, 0, 0.313227266, 0)
     Frame.Size = UDim2.new(0, 432, 0, 285)
@@ -47,7 +47,7 @@ function Library:CreateWindow(windowname,windowinfo)
  local CloseButton = Instance.new("TextButton")
 CloseButton.Size = UDim2.new(0, 30, 0, 30)
 CloseButton.Position = UDim2.new(1, -40, 0, 10) -- الزاوية اليمنى العليا
-CloseButton.BackgroundColor3 = Color3.new(0, 0,0) -- 
+CloseButton.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1) -- 
 CloseButton.TextColor3 = Color3.new(1,1,1) -- لون النص أسود
 CloseButton.Text = "X" -- النص "X" كوسمة للزر
 CloseButton.Font = Enum.Font.SourceSansBold
