@@ -72,8 +72,8 @@ HubLabel.Parent = Frame
 
     DashBoard.Name = "DashBoard"
     DashBoard.Parent = Frame
-    DashBoard.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-    DashBoard.BorderColor3 = Color3.fromRGB(15, 15, 15)
+    DashBoard.BackgroundColor3 = Color3.fromRGB(0.1, 0.1, 0.1)
+    DashBoard.BorderColor3 = Color3.fromRGB(0.1, 0.1, 0.1)
     DashBoard.Position = UDim2.new(0.0185185205, 0, 0.16842106, 0)
     DashBoard.Size = UDim2.new(0, 107, 0, 223)
     
@@ -83,7 +83,7 @@ HubLabel.Parent = Frame
     
     TabContainer.Name = "TabContainer"
     TabContainer.Parent = DashBoard
-    TabContainer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    TabContainer.BackgroundColor3 = Color3.fromRGB(0.1, 0.1, 0.1)
     TabContainer.BackgroundTransparency = 1.000
     TabContainer.BorderSizePixel = 0
     TabContainer.Position = UDim2.new(0.0280373823, 0, 0.0391304344, 0)
@@ -97,8 +97,8 @@ HubLabel.Parent = Frame
 
     PageContainer.Name = "PageContainer"
     PageContainer.Parent = Frame
-    PageContainer.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-    PageContainer.BorderColor3 = Color3.fromRGB(15, 15, 15)
+    PageContainer.BackgroundColor3 = Color3.fromRGB(0.1, 0.1, 0.1)
+    PageContainer.BorderColor3 = Color3.fromRGB(0.1, 0.1, 0.1)
     PageContainer.Position = UDim2.new(0.282407403, 0, 0.16842106, 0)
     PageContainer.Size = UDim2.new(0, 299, 0, 223)
     
