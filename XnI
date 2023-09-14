@@ -124,49 +124,7 @@ HubLabel.Parent = Frame
     Title.TextXAlignment = Enum.TextXAlignment.Left
 
         
-   local isDragging = false
-local startY = 0
-local startScrollY = 0
-local scrollSpeed = 5
-
-
-function animateScroll(y)
-    local targetPosition = UDim2.new(0, 0, 0, -y)
-    local tweenInfo = TweenInfo.new(scrollSpeed, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
-
-    local tween = game:GetService("TweenService"):Create(PageFolder, tweenInfo, {Position = targetPosition})
-    tween:Play()
-end
-
-
-PageFolder.InputBegan:Connect(function(input)
-    if input.UserInputType == Enum.UserInputType.MouseButton1 then
-        isDragging = true
-        startY = input.Position.Y
-        startScrollY = PageFolder.Position.Y.Offset
-    end
-end)
-
-
-PageFolder.InputChanged:Connect(function(input)
-    if isDragging then
-        local deltaY = input.Position.Y - startY
-        local newScrollY = startScrollY + deltaY
-
-
-        newScrollY = math.clamp(newScrollY, 0, PageFolder.CanvasSize.Y.Offset)
-
-        PageFolder.Position = UDim2.new(0, 0, 0, -newScrollY)
-    end
-end)
-
-
-PageFolder.InputEnded:Connect(function(input)
-    if input.UserInputType == Enum.UserInputType.MouseButton1 then
-        isDragging = false
-    end
-end)
- 
+   
     
         
 
