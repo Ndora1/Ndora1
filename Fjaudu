@@ -1,0 +1,436 @@
+local args = {
+    [1] = "PickingTools",
+    [2] = "Coke"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(1)
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Bloxaide"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "BottledWater"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+wait(1)
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Milk"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Mocha"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "FrapMint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+wait(1)
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "FrapStrawberry"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+wait(1)
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "ShakeChocolate"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+wait(1)
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Icecream"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Hershey"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Reeses"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "CakePink"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+
+wait(1)
+
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "CottonCandyPurple"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Donut"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "CookieChip"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+wait(1)
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "YummyBread"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "MuffinBlueBerry"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Waffle"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Pretzel"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+wait(1)
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Pizza"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Guda"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sandwich"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Taco"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Burrito"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "HotDog"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Hamburger"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+
+wait(1)
+
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Chips"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Popcorn"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+
+wait(1)
+
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "AppleGreen"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Banana"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
+
+
+
+
+
+
+wait(1)
+
+
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Apple"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("JK"):WaitForChild("TR"):WaitForChild("1Too1l"):InvokeServer(unpack(args))
