@@ -881,16 +881,3 @@ callback = callback or function() end
 end
 return library
 
-local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
-
-local window = PabloLib:Create(
-"Name", -- Name here.
-"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
-"p" -- You can put any keybind here to open close.
-)
-
-local tab1 = window:CreateTab("Tab1")
-
-tab1:CreateButton("Button", function()
-print("Hello World")
-end)
