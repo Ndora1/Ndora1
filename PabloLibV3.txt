@@ -35,9 +35,38 @@ function library:Create(text, draggable, keybind)
 	Main.Size = UDim2.new(0, 382, 0, 297)
 	
 	
+	local gaga24  = Instance.new("UICorner")
+gaga24.Name = "gaga24"
+gaga24.Parent = Main
+
+
+local  plya24  = Instance.new("UIStroke")
+	plya24.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+	plya24.Color = Color3.fromRGB(135, 135, 135)
+	plya24.Name = "plya24"
+	plya24.Parent = Main
+
+local yyy7 = Instance.new("ImageLabel")
+	yyy7.Name = "yyy7"
+	yyy7.Parent = Main
+	yyy7.AnchorPoint = Vector2.new(0.5, 0.5)
+	yyy7.BackgroundTransparency = 1.000
+	yyy7.BorderSizePixel = 0
+	yyy7.Position = UDim2.new(0.5, 0, 0.5, 0)
+	yyy7.Size = UDim2.new(1, 47, 1, 47)
+	yyy7.ZIndex = 0
+	yyy7.Image = "rbxassetid://6015897843"
+	yyy7.ImageColor3 = Color3.fromRGB(0, 0, 0)
+	yyy7.ImageTransparency = 0.500
+	yyy7.ScaleType = Enum.ScaleType.Slice
+	yyy7.SliceCenter = Rect.new(49, 49, 450, 450)
 	
-	local UICorner = Instance.new("UICorner")
-	UICorner.Parent = Main
+	
+	
+	
+	
+	
+	
 	
 
 	local DropShadowHolder = Instance.new("Frame")
@@ -166,6 +195,35 @@ local yyy = Instance.new("ImageLabel")
 	TabsFrame.BorderSizePixel = 0
 	TabsFrame.Position = UDim2.new(0.0401511081, 0, 0.370370358, 0)
 	TabsFrame.Size = UDim2.new(0, 354, 0, 180)
+	
+	local gagagg  = Instance.new("UICorner")
+gagagg.Name = "gagagg"
+gagagg.Parent = TabsFrame
+
+
+local  plya2bb  = Instance.new("UIStroke")
+	plya2bb.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+	plya2bb.Color = Color3.fromRGB(135, 135, 135)
+	plya2bb.Name = "plya2bb"
+	plya2bb.Parent = TabsFrame
+
+local yyyyyy = Instance.new("ImageLabel")
+	yyyyyy.Name = "yyyyyy"
+	yyyyyy.Parent = TabsFrame
+	yyyyyy.AnchorPoint = Vector2.new(0.5, 0.5)
+	yyyyyy.BackgroundTransparency = 1.000
+	yyyyyy.BorderSizePixel = 0
+	yyyyyy.Position = UDim2.new(0.5, 0, 0.5, 0)
+	yyyyyy.Size = UDim2.new(1, 47, 1, 47)
+	yyyyyy.ZIndex = 0
+	yyyyyy.Image = "rbxassetid://6015897843"
+	yyyyyy.ImageColor3 = Color3.fromRGB(0, 0, 0)
+	yyyyyy.ImageTransparency = 0.500
+	yyyyyy.ScaleType = Enum.ScaleType.Slice
+	yyyyyy.SliceCenter = Rect.new(49, 49, 450, 450)
+	
+	
+	
 	
 	local Containers = Instance.new("Folder")
 	Containers.Name = "Containers"
