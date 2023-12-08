@@ -196,32 +196,7 @@ local yyy = Instance.new("ImageLabel")
 	TabsFrame.Position = UDim2.new(0.0401511081, 0, 0.370370358, 0)
 	TabsFrame.Size = UDim2.new(0, 354, 0, 180)
 	
-	local gagagg  = Instance.new("UICorner")
-gagagg.Name = "gagagg"
-gagagg.Parent = TabsFrame
-
-
-local  plya2bb  = Instance.new("UIStroke")
-	plya2bb.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-	plya2bb.Color = Color3.fromRGB(135, 135, 135)
-	plya2bb.Name = "plya2bb"
-	plya2bb.Parent = TabsFrame
-
-local yyyyyy = Instance.new("ImageLabel")
-	yyyyyy.Name = "yyyyyy"
-	yyyyyy.Parent = TabsFrame
-	yyyyyy.AnchorPoint = Vector2.new(0.5, 0.5)
-	yyyyyy.BackgroundTransparency = 1.000
-	yyyyyy.BorderSizePixel = 0
-	yyyyyy.Position = UDim2.new(0.5, 0, 0.5, 0)
-	yyyyyy.Size = UDim2.new(1, 47, 1, 47)
-	yyyyyy.ZIndex = 0
-	yyyyyy.Image = "rbxassetid://6015897843"
-	yyyyyy.ImageColor3 = Color3.fromRGB(0, 0, 0)
-	yyyyyy.ImageTransparency = 0.500
-	yyyyyy.ScaleType = Enum.ScaleType.Slice
-	yyyyyy.SliceCenter = Rect.new(49, 49, 450, 450)
-	
+		
 	
 	
 	
@@ -281,8 +256,36 @@ local yyyyyy = Instance.new("ImageLabel")
 		Container2.Position = UDim2.new(4.3103924e-08, 0, 0, 0)
 		Container2.Size = UDim2.new(0, 354, 0, 180)
 
-		local UICorner_4 = Instance.new("UICorner")
-		UICorner_4.Parent = Container2
+local gagaggg  = Instance.new("UICorner")
+gagaggg.Name = "gagagg"
+gagaggg.Parent = Container2
+
+
+local  plya2bbb  = Instance.new("UIStroke")
+	plya2bbb.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+	plya2bbb.Color = Color3.fromRGB(135, 135, 135)
+	plya2bbb.Name = "plya2bbb"
+	plya2bbb.Parent = Container2
+
+local yyyyyyy = Instance.new("ImageLabel")
+	yyyyyyy.Name = "yyyyyyy"
+	yyyyyyy.Parent = Container2
+	yyyyyyy.AnchorPoint = Vector2.new(0.5, 0.5)
+	yyyyyyy.BackgroundTransparency = 1.000
+	yyyyyyy.BorderSizePixel = 0
+	yyyyyyy.Position = UDim2.new(0.5, 0, 0.5, 0)
+	yyyyyyy.Size = UDim2.new(1, 47, 1, 47)
+	yyyyyyy.ZIndex = 0
+	yyyyyyy.Image = "rbxassetid://6015897843"
+	yyyyyyy.ImageColor3 = Color3.fromRGB(0, 0, 0)
+	yyyyyyy.ImageTransparency = 0.500
+	yyyyyyy.ScaleType = Enum.ScaleType.Slice
+	yyyyyyy.SliceCenter = Rect.new(49, 49, 450, 450)
+		
+
+
+
+
 
 
 		local DropShadowHolder_2 = Instance.new("Frame")
